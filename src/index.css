@@ -7,11 +7,111 @@
 @layer base {
     body {
         @apply font-[Raleway];
+        @apply text-gray-300;
     }
 
     li {
         @apply px-4;
         @apply cursor-pointer;
+    }
+}
+
+@layer utilities {
+    {/* Social Icons item */}
+    .si-item{
+        @apply w-[170px];
+        @apply h-[70px];
+        @apply flex;
+        @apply justify-between;
+        @apply items-center;
+        @apply ml-[-110px];
+        @apply hover:ml-[-10px];
+        @apply duration-300;
+    }
+
+    .si-item-content {
+        @apply flex;
+        @apply justify-between;
+        @apply items-center;
+        @apply w-full;
+    }
+
+
+    .section-style {
+        @apply w-full;
+        @apply h-screen;
+        @apply bg-[#0a192f];
+    }
+
+    .work-style{
+        @apply w-full;
+        @apply md:h-screen;
+        @apply bg-[#0a192f];
+    }
+
+    .section-title {
+        @apply text-4xl;
+        @apply font-bold;
+        @apply inline;
+        @apply border-b-4;
+        @apply border-pink-600;
+    }
+
+    .skills-item {
+        @apply shadow-md;
+        @apply shadow-[#040c16];
+    }
+
+    .skills-img {
+        @apply w-20;
+        @apply mx-auto;
+    }
+
+    .work-item {
+        @apply shadow-lg;
+        @apply shadow-[#040c16];
+        @apply container;
+        @apply rounded-md;
+        @apply flex;
+        @apply justify-center;
+        @apply items-center;
+        @apply mx-auto;
+        @apply content-div;
+    }
+    
+    .work-item-title {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply text-white;
+        @apply tracking-wider;
+    }
+
+    .work-item-btn-cont {
+        @apply pt-8;
+        @apply text-center;
+    }
+
+    .work-item-btn {
+        @apply text-center;
+        @apply rounded-lg;
+        @apply px-4;
+        @apply py-3;
+        @apply m-2;
+        @apply bg-white;
+        @apply text-gray-700;
+        @apply font-bold;
+        @apply text-lg;
+    }
+
+    .flat-btn {
+        @apply text-white;
+        @apply border-2;
+        @apply hover:bg-pink-600;
+        @apply hover:border-pink-600;
+        @apply px-6;
+        @apply py-3;
+        @apply flex;
+        @apply items-center;
     }
 }
 
