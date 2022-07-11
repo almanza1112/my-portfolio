@@ -40,13 +40,13 @@
     .section-style {
         @apply w-full;
         @apply h-screen;
-        @apply bg-[#0a192f];
+        @apply bg-[#12644f];
     }
 
     .work-style{
         @apply w-full;
         @apply md:h-screen;
-        @apply bg-[#0a192f];
+        @apply bg-[#12644f];
     }
 
     .section-title {
@@ -54,7 +54,7 @@
         @apply font-bold;
         @apply inline;
         @apply border-b-4;
-        @apply border-pink-600;
+        @apply border-[#f2486a];
     }
 
     .skills-item {
@@ -106,8 +106,8 @@
     .flat-btn {
         @apply text-white;
         @apply border-2;
-        @apply hover:bg-pink-600;
-        @apply hover:border-pink-600;
+        @apply hover:bg-[#f2486a];
+        @apply hover:border-[#f2486a];
         @apply px-6;
         @apply py-3;
         @apply flex;
