@@ -58,8 +58,9 @@
     }
 
     .skills-item {
-        @apply shadow-md;
+        @apply shadow-[0_0px_40px_-15px_rgba(0,0,0,.5)];
         @apply shadow-[#040c16];
+        @apply pt-6 pb-2;
     }
 
     .skills-img {

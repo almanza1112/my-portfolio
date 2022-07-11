@@ -5,13 +5,21 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
+import { useScrollPosition } from '../hooks/useScrollPosition'
+
+
+function classNames(...classes) {
+    return classes.filter(Boolean).join('');
+}
 
 export const Navbar = () => {
 
+    const scrollPosition = useScrollPosition();
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#12644f] shadow-lg'>
+
+    <div className={classNames(scrollPosition > 0 ? 'shadow-md' : 'shadow-none', ' transition-shadow fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#12644f]')}>
         <div>
             <img src={Logo} alt="Logo Image" style={{width:'60px'}}/>
         </div>
