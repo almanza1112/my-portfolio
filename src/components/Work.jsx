@@ -7,7 +7,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='section-title'>Work</p>
-                <p className='py-6'>Check out some of my recent work</p>
+                <p className='py-6'>Check out some of my work or my business site: <a className='font-bold underline' href='almanzatech.com'>almanzatech.com</a></p>
             </div>
 
             {/* Container */}
