@@ -5,7 +5,7 @@ import DellPaintingImage from '../assets/dellpainting-ss.png'
 
 const Work = () => {
   return (
-    <div name='work' className='work-style'>
+    <div name='work' className='section-tb-style'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='section-title'>Work</p>

@@ -43,7 +43,8 @@
         @apply bg-[#123e64];
     }
 
-    .work-style{
+    {/* Section style that can overlap into others, applied md: breakpoint. tb = too big*/}
+    .section-tb-style{
         @apply w-full;
         @apply md:h-screen;
         @apply bg-[#123e64];
