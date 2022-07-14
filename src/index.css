@@ -40,13 +40,13 @@
     .section-style {
         @apply w-full;
         @apply h-screen;
-        @apply bg-[#12644f];
+        @apply bg-[#123e64];
     }
 
     .work-style{
         @apply w-full;
         @apply md:h-screen;
-        @apply bg-[#12644f];
+        @apply bg-[#123e64];
     }
 
     .section-title {
@@ -58,8 +58,7 @@
     }
 
     .skills-item {
-        @apply shadow-[0_0px_40px_-15px_rgba(0,0,0,.5)];
-        @apply shadow-[#040c16];
+        @apply shadow-[0_0px_25px_0px_rgba(0,0,0,.5)];
         @apply pt-6 pb-2;
     }
 

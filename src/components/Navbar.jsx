@@ -19,7 +19,7 @@ export const Navbar = () => {
     const handleClick = () => setNav(!nav)
   return (
 
-    <div className={classNames(scrollPosition > 0 ? 'shadow-md' : 'shadow-none', ' transition-shadow fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#12644f]')}>
+    <div className={classNames(scrollPosition > 0 ? 'shadow-md' : 'shadow-none', ' transition-shadow fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#123e64]')}>
         <div>
             <img src={Logo} alt="Logo Image" style={{width:'60px'}}/>
         </div>
