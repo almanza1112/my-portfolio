@@ -90,10 +90,11 @@ export const Navbar = () => {
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className='si-item bg-[#6fc2b0]'>
-                    <a className='si-item-content' href="/">
-                        Mail <HiOutlineMail size={30}/>
-                    </a>
+                <li className='si-item bg-[#6fc2b0] scroll-smooth'>
+                    <Link className='si-item-content' to="contact" smooth={true}>
+                    Mail <HiOutlineMail size={30}/>
+                    </Link>
+                    
                 </li>
                 {/* 
                 
