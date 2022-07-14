@@ -17,11 +17,10 @@ const About = () => {
                     <p>A developer you can trust</p>
                 </div>
                 <div>
-                    <p>I'm passionate about building excellent software that improves businesses 
-                        and individuals seeking to improve their careers or portfolio. I speicalize 
-                        in creating software for clients ranging from individuals and small-bussiness 
-                        all the way to large corporations. Imagine all the great work we would do if 
-                        we were to team up?</p>
+                    <p>I specialize and am passionate about building excellent software that improves
+                        businesses looking to establish themselves on the web as well as individuals 
+                        seeking to excel their careers or portfolio. Imagine all the great things we 
+                        would do if we were to team up?</p>
                 </div>
             </div>
 
