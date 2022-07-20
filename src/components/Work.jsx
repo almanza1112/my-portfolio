@@ -42,7 +42,7 @@ const Work = () => {
                             <a href="https://almanzatech.com/">
                                 <button className='work-item-btn'>DEMO</button>
                             </a>
-                            <a href="https://github.com/almanza1112/almanzatech">
+                            <a href="https://github.com/almanza1112/almanzatech2.0">
                                 <button className='work-item-btn'>CODE</button>
                             </a>
                         </div>
