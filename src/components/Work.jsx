@@ -59,7 +59,7 @@ const Work = () => {
                             <a href="dellpainting.com">
                                 <button className='work-item-btn'>DEMO</button>
                             </a>
-                            <a href="https://github.com/almanza1112/DellPainting">
+                              <a href="https://github.com/almanza1112/dellpainting2.0">
                                 <button className='work-item-btn'>CODE</button>
                             </a>
                         </div>
